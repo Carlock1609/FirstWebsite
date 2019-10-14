@@ -6,6 +6,9 @@
         <title>Styles</title>
         <link href="stylesheet_sample.css" rel="stylesheet" type="text/css"/>
         <style>
+            ul{
+                list-style-image:url("CSS_pics/teddy_2.jpg");
+            }
             body{
                 font-size: 24px;
                 font-family: Arial, Helvetica, sans-serif;
@@ -13,26 +16,40 @@
             p{
                 font-size: xx-small;
             }
-
+            .blue-para{
+                color:blue;
+            }
+            #main-heading{
+                color:green;
+            }
+            .special-words{
+                color:hotpink;
+            }
+            .group{
+                font-style:italic;
+            }
+            .group h2{
+                color: red;
+            }
         </style>
     </head>
 
     <body>
 
-        <h1>A Heading</h1>
+        <h1 id="main-heading">A Heading</h1>
         <h2>A Sub Heading</h2>
 
-        <p style="font-size: 1.5rem;">use long-distance phone lines. <i>Calls were billed to that card number.</i> The distributors often sold one code to hundreds, maybe thousands of people, Ramsey said. Charged to one number in four days: $73,592.  According to Assistant U.S.</p>
+        <p style="font-size: 1.5rem;color:#ff0000">use long-distance phone lines. <i>Calls were billed to that card number.</i> The distributors often sold one code to hundreds, maybe <span class="special-words">thousands of people</span>, Ramsey said. Charged to one number in four days: $73,592.  According to Assistant U.S.</p>
             
-        <p style="font-size: 50%;">Attorney Robert Godbey: Computers were programmed to call the companies' long distance networks, then enter a creditcard number to pay for the call. If the number was rejected, the computer kept dialing until one was accepted. The successful number then was sold.</p>
-
+        <p style="font-size: 50%;"class="blue-para">Attorney Robert Godbey: Computers were programmed to call the companies' long distance networks, then enter a creditcard number to pay for the call. If the number was rejected, the computer kept dialing until one was accepted. The successful number then was sold.</p>
+        <div class="group">
         <h1>A Heading</h1>
         <h2>A Sub Heading</h2>
 
-        <p> As the bean <i>absorbs</i> heat, its color shifts to yellow, thjen to a light "cinnamon" brown, and then to rich dark brown color. During roasting, oils on the surface of the bean. The roast will contrinue toi darken until it is removed from heat source.</p>
-
+        <p style="font-size: 100%;"class="blue-para"> As the bean <i>absorbs</i> heat, its color shifts to yellow, thjen to a light "cinnamon" brown, and then to rich dark brown color. During roasting, oils on the surface of the bean. The roast will contrinue toi darken until it is removed from heat source.</p>
+        </div>
         <ul>
-            <li>item 1</li>
+            <li class="blue-para">item 1</li>
             <li>item 2</li>
             <li>item 3</li>
             <li>item 4</li>
