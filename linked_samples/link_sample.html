@@ -4,6 +4,31 @@
     <head>
         <meta charset="utf-8">
         <title>Links</title>
+        <style>
+            a:link{
+                color:red;
+                text-decoration:none;
+            }
+            a:visited{
+                color:green;
+            }
+            a:hover{
+                color:blue;
+            }
+            nav ul{
+                list-style-type: none;
+            }
+            nav li{
+                display: inline;
+            }
+            nav a:link, nav a:visited{
+                background-color:red;
+                color:white;
+            }
+            nav a:hover{
+                background-color:blue;
+            }
+        </style>
     </head>
 
     <body>
@@ -18,16 +43,18 @@
 
         <br></br>
         <a href="linked_page1.html">
-        <img src="temp_pics/golden_gate.jpg" alt="The golden gate bridge" width="500" height="213"/>
+        <img src="golden_gate.jpg" alt="The golden gate bridge" width="500" height="213"/>
         </a>
         <br/>
         <a href="mailto:jcyates906@outlook.com?Subject=Contact">Contact us</a>
 
         <h1>Navigation Links</h1>
+        <nav>
         <ul>
-            <li>Link 1</li>
-            <li>Link 2</li>
-            <li>Link 3</li>
+            <li><a href="linked_page1.html">Link 1</a></li>
+            <li><a href="linked_page2.html">Link 2</a></li>
+            <li><a href="linked_page3.html">Link 3</a></li>
         </ul>
+        </nav>
     </body>
 </html>
