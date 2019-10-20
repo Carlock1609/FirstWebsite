@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Positioning</title>
+        <style>
+            body,h1,p{
+                margin:0;
+                padding: 0;
+            }
+            .block{
+                width: 29%;
+                float:left;
+                margin:2%;
+                background-color: lightblue;
+            }
+            #parent-block{
+                height: 500px;
+                background-color: pink;
+                position:relative;
+            }
+            #block2{
+                position: relative;
+                top:100px;
+                left:100px;
+            }
+            #special-message{
+                position: fixed;
+                left:10px;
+                bottom:300px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="parent-block">
+            <div class="block">
+                <h1>Heading 1</h1>
+                <p>Calls were billed to that card number.
+                The distributors often sold one code to hundreds, maybe thousands of
+                people, Ramsey said. Charged to one number in four days: $73,592.  According to Assistant U.S. Attorney Robert Godbey:</p>
+            </div>
+            <div class="block" id="block2">
+                <h1>Heading 2</h1>
+                <p>Computers were programmed to call the companies' long distance networks, then enter a creditcard number to pay for the call. If the number was rejected, the computer kept dialing until one was accepted. The successful number then was sold.</p>
+            </div>
+            <div class="block">
+                <h1>Heading 3</h1>
+                <p>Farrow wrote that Nevils told Farrow she and Vieira were at the hotel bar and Lauer joined them. After six drinks, Nevils said she went to Lauer's hotel room twice later that night.</p>
+            </div>
+            <div id="special-message">
+                Special Message
+            </div>
+
+        </div>
+    </body>
+</html>
